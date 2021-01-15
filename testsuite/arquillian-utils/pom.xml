@@ -17,7 +17,7 @@
 
     <groupId>org.jboss.resteasy</groupId>
     <artifactId>arquillian-utils</artifactId>
-    <version>4.5.8.SP1</version>
+    <version>4.5.8.SP1.UKG.1</version>
     <name>RESTEasy Main testsuite: Arquillian utils</name>
     <packaging>jar</packaging>
     <properties>
@@ -85,7 +85,7 @@
             <artifactId>resteasy-client</artifactId>
             <version>${version.resteasy.testsuite}</version>
         </dependency>
-        
+
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-validator-provider</artifactId>
