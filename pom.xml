@@ -52,10 +52,15 @@
 
     <distributionManagement>
         <repository>
-            <id>jboss-releases-repository</id>
-            <name>JBoss Releases Repository</name>
-            <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url>
+            <id>project-releases</id>
+            <name>Artifactory java-tribe Releases</name>
+            <url>https://artifactory.mia.ulti.io/artifactory/java-tribe-maven-libs-release</url>
         </repository>
+        <snapshotRepository>
+            <id>project-snapshots</id>
+            <name>Artifactory java-tribe Snapshots</name>
+            <url>https://artifactory.mia.ulti.io/artifactory/java-tribe-maven-libs-snapshot</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <issueManagement>
@@ -100,7 +105,7 @@
                 <module>resteasy-core</module>
                 <module>resteasy-client-api</module>
                 <module>resteasy-client</module>
-                <module>resteasy-client-microprofile</module>  
+                <module>resteasy-client-microprofile</module>
                 <module>resteasy-client-jetty</module>
                 <module>resteasy-client-vertx</module>
                 <module>resteasy-client-reactor-netty</module>
